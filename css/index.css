@@ -71,11 +71,18 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: #1b1b1d;
-    border-color: #a19fa5
+    border-color: #a19fa5;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+.input-forms h2{
+    justify-items: start;
+    width: 60%;
+    text-align: start;
+}
 .color-texto {
     color: #31313e;
     background-color: #f9f6f89f;
@@ -86,7 +93,4 @@ body {
 
 .forms-test{
     background-color: #f9f6f89f;
-}
-.text-input-class{
-    margin-left: 20px;
 }
