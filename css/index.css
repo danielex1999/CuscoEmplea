@@ -1,0 +1,20 @@
+body::before {
+    content: "";
+    position: fixed;
+    inset: -10px;
+    z-index: -1;
+
+    background-image: url('../assets/img/bg-laptop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(2px);
+}
+
+/* Responsive para móviles */
+@media (max-width: 767px) {
+    body::before {
+        background-image: url('../assets/img/bg-movil.png');
+    }
+}
