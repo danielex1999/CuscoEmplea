@@ -67,6 +67,10 @@ body {
     justify-content: center;
 }
 
+.div-test h1 {
+width: 70%;
+}
+
 .input-forms {
     display: flex;
     flex-direction: row;
