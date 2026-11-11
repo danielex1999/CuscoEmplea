@@ -17,4 +17,34 @@ body::before {
     body::before {
         background-image: url('../assets/img/bg-movil.png');
     }
+
+    body {
+        flex-direction: column;
+    }
+    .fondo-img {
+        height: 40%;
+    }
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fondo-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-img img {
+    width: 40%;
+}
+
+.fondo-content {
+    height: 60%;
+    background-color: #2793ff;
 }
